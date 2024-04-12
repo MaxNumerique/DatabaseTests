@@ -194,6 +194,7 @@ td, th {
     border: 1px solid #f3f3f3;
     text-align: left;
     padding: 8px;
+    width: 80%;
   }
 
 tr:nth-child(odd) {
@@ -285,7 +286,7 @@ background-color: #dfdfdf;
 
     &:hover {
         color: rgb(255, 255, 255);
-        background-color: rgb(31, 93, 201);
+        background-color: rgb(41, 110, 230);
         border: 1px solid rgb(0, 0, 0);
     }
 }
@@ -294,4 +295,14 @@ background-color: #dfdfdf;
     color: rgb(255, 255, 255);
     background-color: rgb(31, 93, 201);
     border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.spanFleche {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    display: block;
 }
